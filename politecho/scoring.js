@@ -87,7 +87,6 @@ fakenews_dict["177486166274"] = ulf; //Being Liberal
 fakenews_dict["762592150466931"] = ulf; //If You Only News
 fakenews_dict["253546571389025"] = ulf; //Bipartisan Report 
 fakenews_dict["180213475460766"] = ulf; //Liberal America 
-fakenews_dict["20950654496"] = ulf; //The Onion 
 fakenews_dict["38423635680"] = ulf; //Andy Borowitz 
 fakenews_dict["114517875225866"] = ulf; //The Other 98%
 fakenews_dict["11539801009"] = ulf; //National Report 
@@ -98,6 +97,7 @@ fakenews_dict["1640832309490921"] = ulf; //Winning Democrats
 fakenews_dict["346937065399354"] = ulf; //Occupy Democrats
 fakenews_dict["298227226929908"] = ulf; //The Shovel 
 
+fakenews_dict["20950654496"] = lf; //The Onion 
 fakenews_dict["1439042583002670"] = lf; //Clickhole 
 fakenews_dict["131929868907"] = lf; //Collective Evolution 
 fakenews_dict["606565022725513"] = lf; //Daily Buzz Live
