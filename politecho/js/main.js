@@ -95,11 +95,6 @@ function showShareDialog(url) {
   }
   popupwindow(popupURL, 'Share on Facebook', 555, 665);
 }
-function showCSVDialog(url) {
-  var popupURL = '/csv.html';
-  // https://developers.facebook.com/docs/sharing/reference/feed-dialog
-  popupwindow(popupURL, 'CSV Data', 555, 665);
-}
 
 $(document).ready(function() {
   chrome.runtime.sendMessage({ action: 'reset' });
@@ -141,6 +136,7 @@ $(document).ready(function() {
   });
 
   var currentlySharing = false;
+  var gettingCSV = false;
   $('.js-share-fb').click(function (e) {
     e.preventDefault();
 
@@ -167,4 +163,20 @@ $(document).ready(function() {
       currentlySharing = false;
     });
   });
-});
+  $('.js-get-csv').click(function (e) {
+    e.preventDefault();
+
+    if (gettingCSV) return;
+    gettingCSV = true;
+
+    var $progress = $('.js-share-fb-progress');
+    var $output = $('.csv-data');
+    $progress.addClass('js-share-fb-progress--animate');
+    $progress.text('Processing');
+    $progress.text('Sharing');
+    $progress.removeClass('js-share-fb-progress--animate');
+    $progress.text('');
+    $output.text('CSV output data here.');
+    gettingCSV = false;
+    return;
+  });
