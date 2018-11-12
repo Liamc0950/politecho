@@ -79,7 +79,7 @@ function getPageLikes(pageId, done, onFetch) {
 }
 
 function getAllFriendScores2(done, progress) {
-	var maxNewsFeedDepth = 20;
+	var maxNewsFeedDepth = 100;
 
 	var pageIds = getAllPageIds();
 	var profileToPages = {};
