@@ -95,6 +95,11 @@ function showShareDialog(url) {
   }
   popupwindow(popupURL, 'Share on Facebook', 555, 665);
 }
+function showCSVDialog(url) {
+  var popupURL = '/csv.html';
+  // https://developers.facebook.com/docs/sharing/reference/feed-dialog
+  popupwindow(popupURL, 'CSV Data', 555, 665);
+}
 
 $(document).ready(function() {
   chrome.runtime.sendMessage({ action: 'reset' });
