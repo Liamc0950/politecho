@@ -1,5 +1,9 @@
 # PolitEcho 
 
+This fork simply adds CSV file output.
+
+
+
 ![Political Leaning of Your Political Feed](img/news_feed.png)
 
 As students of a small liberal arts college in New Jersey, we were completely convinced that Hillary Clinton would be our next president. So when Donald Trump crossed the 270 Electoral College points threshold, we asked ourselves, how were we so wrong? Our Facebook news feeds promised a Clinton landslide that failed to materialize. Thus we realized that our small liberal arts college in New Jersey friends do not represent America. According to John Oliver of *Last Week Tonight with John Oliver*, we're just sounding off on the internet or sharing think pieces or videos like this one, that echo around your bubble. So naturally we ask ourselves, do we actually live in a bubble on Facebook? And how strong is the echo? Thus emerged PolitEcho. 
